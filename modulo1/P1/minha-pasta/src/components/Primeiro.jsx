@@ -1,0 +1,1 @@
+export default () => <div><h1>Jadley</h1> <h2>Meu primeiro componente.</h2></div>
