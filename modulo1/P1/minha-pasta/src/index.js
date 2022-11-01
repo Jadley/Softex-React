@@ -3,5 +3,11 @@ import ReactDOM from "react-dom";
 import Primeiro from "./components/Primeiro";
 import Principal from "./components/principal";
 import Hook from "./components/Hook";
+import App from "./App";
 
-ReactDOM.render(<Hook />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
